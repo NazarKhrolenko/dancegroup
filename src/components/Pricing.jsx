@@ -46,7 +46,7 @@ const Pricing = () => {
     },
   ];
   return (
-    <div className="pt-20 bg-gray-700">
+    <div className="pt-20 ">
       <div className="flex gap-30 items-center justify-center pb-10">
         {/*First row*/}
 

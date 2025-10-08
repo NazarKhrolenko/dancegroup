@@ -4,16 +4,16 @@ import { FaFacebookSquare } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="pt-20 bg-gray-700 flex justify-around">
+    <div className="pt-20 flex justify-around">
       <div className=" h-[800px]">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d610.7881105506846!2d20.957084328632227!3d52.24061469824199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecb71166a4c13%3A0x7bdb5392e68411c4!2sal.%20Prymasa%20Tysi%C4%85clecia%2076%2C%2001-424%20Warszawa!5e0!3m2!1sru!2spl!4v1757873214136!5m2!1sru!2sp&zoom=20&hl=en"
           width="600"
           height="450"
           style={{ border: 0 }}
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
       <div className="w-full lg:w-1/3 space-y-8">
