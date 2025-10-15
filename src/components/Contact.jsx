@@ -1,22 +1,24 @@
 import React from "react";
-import { FaInstagram } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
+
+import { FaFacebookSquare, FaTelegram, FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="pt-20 flex justify-around">
-      <div className=" h-[800px]">
+    <section
+      id="kontakt"
+      className="pt-20 md:flex-row flex-col flex justify-around w-[80%] mx-auto text-center"
+    >
+      <div className="w-full md:w-[600px] h-[350px] mg:h-[450px]">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d610.7881105506846!2d20.957084328632227!3d52.24061469824199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecb71166a4c13%3A0x7bdb5392e68411c4!2sal.%20Prymasa%20Tysi%C4%85clecia%2076%2C%2001-424%20Warszawa!5e0!3m2!1sru!2spl!4v1757873214136!5m2!1sru!2sp&zoom=20&hl=en"
-          width="600"
-          height="450"
+          className="h-full w-full rounded-2xl"
           style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <div className="w-full lg:w-1/3 space-y-8">
+      <div className="w-full lg:w-1/3 space-y-8 pt-10">
         <div>
           <h2 className="text-3xl font-bold text-indigo-400 mb-4">Kontakt</h2>
           <div className="grid gap-6">
@@ -58,7 +60,7 @@ const Contact = () => {
         </div>
 
         {/* SOCIAL ICONS */}
-        <div className="flex gap-6 text-2xl">
+        <div className="flex justify-center gap-6 text-2xl ">
           <a
             href="https://instagram.com"
             target="_blank"
@@ -75,9 +77,17 @@ const Contact = () => {
           >
             <FaFacebookSquare />
           </a>
+          <a
+            href="https://t.me/+6ev-hABDMB0zZTg6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-300 transition"
+          >
+            <FaTelegram />
+          </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
