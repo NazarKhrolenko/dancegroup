@@ -15,3 +15,51 @@
   animation: slideUp 0.6s ease-out forwards;
   animation-delay: 0.5s;
 }
+.swiper {
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.swiper-slide img {
+  object-fit: cover;
+}
+.swiper-pagination-bullet {
+  background-color: rgba(255, 255, 255, 0.6) !important; /* світло-сірі */
+  opacity: 1; /* щоб не були напівпрозорими */
+}
+
+/* Активна крапка */
+.swiper-pagination-bullet-active {
+  background-color: white !important; /* наприклад, Tailwind color sky-400 */
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+.sm-logo-img {
+  display: none !important;
+}
+/* .sm-toggle- {
+  color: black !important;
+} */

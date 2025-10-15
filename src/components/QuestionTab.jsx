@@ -6,9 +6,8 @@ const QuestionTab = ({ question, answer }) => {
   return (
     <div className="w-full  font-medium text-2xl ">
       <motion.button
-        whileTap={{ y: 1 }}
         onClick={() => setOpenTab((prev) => !prev)}
-        className="flex justify-between items-center w-full cursor-pointer bg-gray-500 p-2 rounded-2xl"
+        className="flex justify-between items-center w-full cursor-pointer bg-white/80 text-black p-2 rounded-2xl hover:bg-white/95"
       >
         <span>{question}</span>
         <span>{openTab ? "-" : "+"}</span>

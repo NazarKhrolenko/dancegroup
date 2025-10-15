@@ -4,22 +4,28 @@ import QuestionTab from "./QuestionTab";
 const Questions = () => {
   const questionAndAnswers = [
     {
-      question: "Jak mogę się zapisać?",
+      question: "Jak mogę zapisać się na zajęcia próbne?",
       answer:
-        "Możesz zapisać się online przez formularz na stronie albo w recepcji studia.",
+        "Możesz zapisać się przez formularz lub prywatne wiadomości na Instagramie.",
     },
     {
-      question: "Jakie są godziny otwarcia?",
-      answer: "Od poniedziałku do piątku 10:00 - 22:00, sobota 10:00 - 18:00.",
+      question: "Ile czasu trwają zajęcia?",
+      answer: "Zajęcia trwają 1 godzinę",
     },
     {
       question: "Czy mogę przyjść kiedy chcę?",
-      answer: "Tak, ale najlepiej sprawdzić grafik zajęć wcześniej.",
+      answer:
+        "Tak, jest taka możliwość, jednak prosimy o wcześniejszą informację i wypełnienie formularza",
     },
   ];
   return (
-    <div className="pt-20 bg-gray-700 flex flex-col justify-center items-center ">
-      <h2 className="font-bold text-5xl pb-5">Często zadawane pytania</h2>
+    <section
+      id="pytania"
+      className="pt-15 w-[80%] mx-auto flex flex-col justify-center items-center "
+    >
+      <h2 className="font-bold text-5xl pb-10 text-center">
+        Pytania & odpowiedż
+      </h2>
       <div className="w-full flex flex-col gap-3">
         {questionAndAnswers.map((qestionTab, index) => {
           return (
@@ -31,7 +37,7 @@ const Questions = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

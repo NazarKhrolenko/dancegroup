@@ -5,12 +5,16 @@ const Pricing = () => {
   const singleLessons = [
     {
       title: "   ZAJĘCIA PRÓBNE",
-      features: ["", "zapisanie się - 100% płatne", "ważne 21 dni "],
+      features: [
+        "",
+        "zapis na zajęcia obowiązuje 100% opłaty",
+        "opłata ważna 21 dni ",
+      ],
       price: "40 ", // або інша ціна
     },
     {
       title: "zajęcia jednorazowe",
-      features: ["opłacone zajęcja ważne 14 dni", "", ""],
+      features: ["opłata ważna 14 dni od dnia zakupu", "", ""],
       price: "65",
     },
   ];
@@ -19,7 +23,7 @@ const Pricing = () => {
     {
       title: "karnet na 4 wejscia",
       features: [
-        "ważne w ciągu 8 godzin tanecznych",
+        "karnet ważny w ciągu 30 dni",
         "57 zł/godz",
         "aktywacja karnetu możliwa w ciągu 14 dni",
         ,
@@ -31,23 +35,24 @@ const Pricing = () => {
       features: [
         "aktywacja karnetu możliwa w ciągu 14 dni",
         "47 zł/godz",
-        "zwrót za niewykorzystane zajęcia nie mozliwe",
+        "zwrót pięniedzy za niewykorzystane zajęcia nie mozliwe",
       ],
       price: "380",
     },
     {
       title: "16 godzin",
       features: [
-        "ważne w ciągu 20 godzin tanecznych",
-        "mozliwość odpracowania 4 zajęć",
+        "ważne w ciągu 65 dni",
+        "mozliwość odpracowania zajęć",
         "43 zł/godz",
       ],
       price: "700",
     },
   ];
   return (
-    <div className="pt-20 ">
-      <div className="flex gap-30 items-center justify-center pb-10">
+    <section id="cennik" className="pt-10  ">
+      <h2 className="font-bold text-5xl text-center pb-15">Cennik</h2>
+      <div className="md:flex-row flex-col flex gap-10 md:gap-30 items-center justify-center pb-10 md:pb-20 relative">
         {/*First row*/}
 
         {singleLessons.map((lesson, index) => {
@@ -61,7 +66,7 @@ const Pricing = () => {
           );
         })}
       </div>
-      <div className="flex justify-around items-center">
+      <div className="md:flex-row flex-col flex justify-center gap-10 md:gap-30 items-center">
         {plans.map((plan, index) => {
           return (
             <PriceCard
@@ -73,7 +78,7 @@ const Pricing = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 
