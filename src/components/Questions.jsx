@@ -6,7 +6,7 @@ const Questions = () => {
     {
       question: "Jak mogę zapisać się na zajęcia próbne?",
       answer:
-        "Możesz zapisać się przez formularz lub prywatne wiadomości na Instagramie.",
+        "Możesz zapisać się przez formularz lub prywatne wiadomości na Instagramie. Rezerwacja miejsca obowiązuje po wpłacie 100% kwoty.",
     },
     {
       question: "Ile czasu trwają zajęcia?",
@@ -24,7 +24,7 @@ const Questions = () => {
       className="pt-15 w-[80%] mx-auto flex flex-col justify-center items-center "
     >
       <h2 className="font-bold text-5xl pb-10 text-center">
-        Pytania & odpowiedż
+        Pytania i odpowiedzi
       </h2>
       <div className="w-full flex flex-col gap-3">
         {questionAndAnswers.map((qestionTab, index) => {

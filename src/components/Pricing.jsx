@@ -6,47 +6,54 @@ const Pricing = () => {
     {
       title: "   ZAJĘCIA PRÓBNE",
       features: [
-        "",
-        "zapis na zajęcia obowiązuje 100% opłaty",
-        "opłata ważna 21 dni ",
+        "zapis na zajęcia jest ważny po dokonaniu pełnej opłaty",
+        "opłata ważna przez 21 dni ",
       ],
       price: "40 ", // або інша ціна
     },
     {
       title: "zajęcia jednorazowe",
-      features: ["opłata ważna 14 dni od dnia zakupu", "", ""],
+      features: ["opłata ważna przez 14 dni od daty zakupu", "", ""],
       price: "65",
+    },
+    {
+      title: "karnet na 4 godziny",
+      features: [
+        "Karnet ważny przez 30 dni",
+        "57 zł / godz.",
+        "Aktywacja karnetu możliwa w ciągu 14 dni ",
+      ],
+      price: "230",
     },
   ];
 
   const plans = [
     {
-      title: "karnet na 4 wejscia",
-      features: [
-        "karnet ważny w ciągu 30 dni",
-        "57 zł/godz",
-        "aktywacja karnetu możliwa w ciągu 14 dni",
-        ,
-      ],
-      price: "230",
-    },
-    {
       title: "karnet na 8 godzin",
       features: [
-        "aktywacja karnetu możliwa w ciągu 14 dni",
-        "47 zł/godz",
-        "zwrót pięniedzy za niewykorzystane zajęcia nie mozliwe",
+        "Aktywacja karnetu możliwa w ciągu 14 dni",
+        "47 zł / godz.",
+        "Zwrot pieniędzy za niewykorzystane zajęcia nie jest możliwy",
       ],
       price: "380",
     },
     {
       title: "16 godzin",
       features: [
-        "ważne w ciągu 65 dni",
-        "mozliwość odpracowania zajęć",
-        "43 zł/godz",
+        "Karnet ważny przez 65 dni",
+        "43 zł / godz.",
+        "Możliwość odpracowania zajęć",
       ],
       price: "700",
+    },
+    {
+      title: "zajęcia indywidualne",
+      features: [
+        "Czas dopasujemy do Ciebie",
+
+        "Miejsce możemy ustalić lub zmienić według Twojej wygody",
+      ],
+      price: "160",
     },
   ];
   return (

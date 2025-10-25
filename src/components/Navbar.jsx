@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const navItems = [
     { name: "Cennik", id: "cennik" },
-    { name: "Pytania / odpowiedż", id: "pytania" },
+    { name: "Pytania", id: "pytania" },
     { name: "Video", id: "galeria" },
     { name: "Kontakt", id: "kontakt" },
   ];

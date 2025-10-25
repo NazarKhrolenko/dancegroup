@@ -47,7 +47,7 @@ const Contact = () => {
                 </a>
               </p>
               <p>
-                email{" "}
+                e-mail{" "}
                 <a
                   href="mailto:khrystynab4@gmail.com"
                   className="text-indigo-400 hover:underline"
