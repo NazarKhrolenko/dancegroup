@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section
       id="kontakt"
-      className="pt-20 md:flex-row flex-col flex justify-around w-[80%] mx-auto text-center"
+      className="py-10 md:flex-row flex-col flex justify-around w-[80%] mx-auto text-center"
     >
       <div className="w-full md:w-[600px] h-[350px] mg:h-[450px]">
         <iframe

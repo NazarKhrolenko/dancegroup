@@ -27,7 +27,7 @@ const Hero = () => {
         }}
         onClick={() =>
           window.open(
-            "https://www.instagram.com/khrrsttnaaa__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            "https://docs.google.com/forms/d/e/1FAIpQLSf70WbpJApowaGayiKlt-v42YQdwD6hXBuCL-66_trdHff2zQ/viewform?usp=dialog"
           )
         }
         className="

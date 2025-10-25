@@ -34,7 +34,7 @@ const Gallery = () => {
   return (
     <section
       id="galeria"
-      className="w-full h-full py-15 md:py-30 flex flex-col justify-center items-center "
+      className="w-full h-full py-10  flex flex-col justify-center items-center "
     >
       <h2 className="font-bold text-5xl">Galeria</h2>
       <div className="w-[100%] md:w-[80%] ">

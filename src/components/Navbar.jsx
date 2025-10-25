@@ -18,8 +18,8 @@ const Navbar = () => {
       ariaLabel: "Learn about us",
       link: "#pytania",
     },
-    { label: "Kontakt", ariaLabel: "View our services", link: "#kontakt" },
     { label: "Video", ariaLabel: "Get in touch", link: "#galeria" },
+    { label: "Kontakt", ariaLabel: "View our services", link: "#kontakt" },
   ];
 
   const socialItems = [
@@ -74,7 +74,7 @@ const Navbar = () => {
           <button
             onClick={() =>
               window.open(
-                "https://www.instagram.com/khrrsttnaaa__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                "https://docs.google.com/forms/d/e/1FAIpQLSf70WbpJApowaGayiKlt-v42YQdwD6hXBuCL-66_trdHff2zQ/viewform?usp=dialog"
               )
             }
             className="bg-white/80 text-black py-1 px-9 rounded-full font-medium cursor-pointer"
