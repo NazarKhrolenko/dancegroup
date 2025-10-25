@@ -8,8 +8,8 @@ const Navbar = () => {
   const navItems = [
     { name: "Cennik", id: "cennik" },
     { name: "Pytania / odpowiedż", id: "pytania" },
-    { name: "Kontakt", id: "kontakt" },
     { name: "Video", id: "galeria" },
+    { name: "Kontakt", id: "kontakt" },
   ];
   const menuItems = [
     { label: "Cennik", ariaLabel: "Go to home page", link: "#cennik" },
