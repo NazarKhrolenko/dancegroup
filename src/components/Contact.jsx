@@ -10,7 +10,7 @@ const Contact = () => {
     >
       <div className="w-full md:w-[600px] h-[350px] mg:h-[450px]">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d610.7881105506846!2d20.957084328632227!3d52.24061469824199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecb71166a4c13%3A0x7bdb5392e68411c4!2sal.%20Prymasa%20Tysi%C4%85clecia%2076%2C%2001-424%20Warszawa!5e0!3m2!1spl!2spl!4v1757873214136!5m2!1spl!2spl&zoom=20&hl=pl"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.72700992306!2d20.96704829162548!3d52.23017734320171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecb6248712f8b%3A0xdadc7be3961ea5e!2sSkierniewicka%2014%2C%2001-230%20Warszawa!5e0!3m2!1sen!2spl!4v1768512806572!5m2!1sen!2spl"
           className="h-full w-full rounded-2xl"
           style={{ border: 0 }}
           allowFullScreen=""
@@ -26,7 +26,7 @@ const Contact = () => {
               <h3 className="uppercase text-sm tracking-wide text-gray-400">
                 Adres
               </h3>
-              <p className="text-lg">al. Prymasa Tysiąclecia 76D </p>
+              <p className="text-lg">Skierniewicka 14</p>
             </div>
 
             <div>

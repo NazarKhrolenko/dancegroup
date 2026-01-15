@@ -14,7 +14,7 @@ const Pricing = () => {
     {
       title: "zajęcia jednorazowe",
       features: ["opłata ważna przez 14 dni od daty zakupu", "", ""],
-      price: "65",
+      price: "70",
     },
     {
       title: "karnet na 4 godziny",
@@ -23,7 +23,7 @@ const Pricing = () => {
         "57 zł / godz.",
         "Aktywacja karnetu możliwa w ciągu 14 dni ",
       ],
-      price: "230",
+      price: "250",
     },
   ];
 
@@ -35,7 +35,7 @@ const Pricing = () => {
         "47 zł / godz.",
         "Zwrot pieniędzy za niewykorzystane zajęcia nie jest możliwy",
       ],
-      price: "380",
+      price: "400",
     },
     {
       title: "16 godzin",
@@ -44,7 +44,7 @@ const Pricing = () => {
         "43 zł / godz.",
         "Możliwość odpracowania zajęć",
       ],
-      price: "700",
+      price: "750",
     },
     {
       title: "zajęcia indywidualne",
@@ -53,7 +53,7 @@ const Pricing = () => {
 
         "Miejsce możemy ustalić lub zmienić według Twojej wygody",
       ],
-      price: "160",
+      price: "180",
     },
   ];
   return (
