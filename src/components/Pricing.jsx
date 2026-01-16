@@ -20,7 +20,7 @@ const Pricing = () => {
       title: "karnet na 4 godziny",
       features: [
         "Karnet ważny przez 30 dni",
-        "57 zł / godz.",
+        "62.5 zł / godz.",
         "Aktywacja karnetu możliwa w ciągu 14 dni ",
       ],
       price: "250",
@@ -32,18 +32,14 @@ const Pricing = () => {
       title: "karnet na 8 godzin",
       features: [
         "Aktywacja karnetu możliwa w ciągu 14 dni",
-        "47 zł / godz.",
-        "Zwrot pieniędzy za niewykorzystane zajęcia nie jest możliwy",
+        "50 zł / godz.",
+        "Karnet ważny przez 35 dni.",
       ],
       price: "400",
     },
     {
       title: "16 godzin",
-      features: [
-        "Karnet ważny przez 65 dni",
-        "43 zł / godz.",
-        "Możliwość odpracowania zajęć",
-      ],
+      features: ["47 zł / godz.", "Możliwość odpracowania zajęć"],
       price: "750",
     },
     {
